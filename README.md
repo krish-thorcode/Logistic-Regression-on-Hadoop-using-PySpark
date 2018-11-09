@@ -6,11 +6,12 @@ The project was done as a part of a college course- Big Data Analytics (VIT, Vel
 The goal was to run a Logistic Regression model on Hadoop, using the PySpark API, and compare its performance
 with the models that were run without Hadoop, i.e., on local file system (Linux).
 
-Three different implementations of Logistic Regression were run:
+Three different implementations of Logistic Regression were implemented and run:
   * Written from scratch in Python
   * Using scikit-learn LogisticRegression class
   * Using Spark LogisticRegression
 
 While the first one did not finish training, scikit-learn took 28 minutes, while Spark completed training on the
-entire dataset in 25 seconds (about 65x faster than sklearn!). This kind of contrasting difference was not
-expected to be observed, and it was amazing.
+entire dataset in 25 seconds (about 65x faster than sklearn!). This was a significantly contrast in the performances.
+
+(The complete report- *Final_report.pdf*)
